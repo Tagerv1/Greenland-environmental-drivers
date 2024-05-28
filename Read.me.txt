@@ -1,0 +1,11 @@
+Readme:
+
+
+This repository includes 4 scripts used to describe environmental drivers around Greenland.
+Data can be found here: https://zenodo.org/doi/10.5281/zenodo.11352998
+
+'NetCDF trend analysis.R' process NetCDF data and plots geospatial data including trends and significance (sens.slope), standard  deviation, and average value.
+
+'Annual average - NetCDF to CSV.R' extracts annual averages from NetCDF files and stores it in a .CSV file. This can then be used in 'Linear regional environmental driver trends from CSV.R' to determine trends.
+
+'Run off r script updated to gt.R' This script process data for each region based on the runoff data.
